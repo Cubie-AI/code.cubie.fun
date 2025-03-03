@@ -74,10 +74,10 @@ export const BaseChat = React.forwardRef<HTMLDivElement, BaseChatProps>(
             {!chatStarted && (
               <div id="intro" className="mt-[26vh] max-w-chat mx-auto">
                 <h1 className="text-5xl text-center font-bold text-bolt-elements-textPrimary mb-2">
-                  Where ideas begin
+                  Build with Cubie
                 </h1>
                 <p className="mb-4 text-center text-bolt-elements-textSecondary">
-                  Bring ideas to life in seconds or get help on existing projects.
+                  2MH8ga3TuLvuvX2GUtVRS2BS8B9ujZo3bj5QeAkMpump
                 </p>
               </div>
             )}
@@ -130,7 +130,7 @@ export const BaseChat = React.forwardRef<HTMLDivElement, BaseChatProps>(
                       minHeight: TEXTAREA_MIN_HEIGHT,
                       maxHeight: TEXTAREA_MAX_HEIGHT,
                     }}
-                    placeholder="How can Bolt help you today?"
+                    placeholder="How can Cubie help you today?"
                     translate="no"
                   />
                   <ClientOnly>
